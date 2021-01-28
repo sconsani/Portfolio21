@@ -1,0 +1,30 @@
+body {
+background-color: white;
+color: black;
+
+
+}
+.title {
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+	
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Fugaz One', cursive;
+}
+
+.socials {
+	width: 100%;
+	height: 120px;
+	margin: 10px;
+}
+
+.logos {
+	height: 60px;
+	width: auto;
+}
+
+
