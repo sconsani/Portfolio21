@@ -32,81 +32,21 @@ ul{
 	list-style-type: none;
 }
 
-/*.project-title*/
-.grid .project-title{
-	font-size: 25px;
-	/*color: black;*/
-	text-decoration-line: none;
-	display:center;
+
+.row {
+	margin-top: 30px;
 }
 
-
-
-
-.grid{
-	padding-top: 50px;
-	display: grid;
-	width: 90%;
-	margin: auto;
-	grid-column-gap: 2%;
-	grid-row-gap: 10px;
-	justify-content: center;
-	grid-template-columns: repeat(5, minmax(50px, 200px));
-	grid-template-rows: repeat (2, 290px);
+.card {
+	padding = 0px;
 }
 
-.item{
-	display: flex;
-	flex-direction: column;
-	border-radius: 3%;
-	overflow: hidden;
-}
-
-[class^="color"] {
-	flex: 1;
-}
-
-.item .color1 {
-	background-color: red;
+.card-link {
 	color: black;
-	height: 200px;
+
 }
 
-.item .color1:hover{
-	background-color: black;
-	color: white;
-	
-}
 
-.project-title:hover{
-	/*color: white;*/
-	text-decoration-line: none;
-}
-
-.item .color2 {
-	background-color: pink;
-	height: 200px;
-}
-
-.item .color3 {
-	background-color: green;
-	height: 200px;
-}
-
-.item .color4 {
-	background-color: yellow;
-	height: 200px;
-}
-
-.item .color5 {
-	background-color: orange;
-	height: 200px;
-}
-
-.item .color6 {
-	background-color: brown;
-	height: 200px;
-}
 
 
 
