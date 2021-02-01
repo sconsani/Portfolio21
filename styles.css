@@ -1,14 +1,25 @@
 
 body {
 background-color: rgb(231, 231, 231);
-
 }
 .title {
 	width: 100%;
 	height: 60px;
 	padding-top: 20px;
 	color: black;
-	
+
+}
+
+.contents {
+	text-align: center;
+	width: auto;
+}
+
+.about {
+	/*width: 50%;*/
+	text-align: center;
+	align-content: center;
+
 }
 
 h1 {
@@ -39,11 +50,16 @@ ul{
 
 .card {
 	padding = 0px;
+	border-radius: 60px;
 }
 
 .card-link {
 	color: black;
 
+}
+
+.light{
+	color: white;
 }
 
 
