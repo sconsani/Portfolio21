@@ -1,30 +1,112 @@
-body {
-background-color: white;
-color: black;
 
+body {
+background-color: rgb(231, 231, 231);
 
 }
 .title {
 	width: 100%;
 	height: 60px;
 	padding-top: 20px;
+	color: black;
 	
 }
 
 h1 {
 	text-align: center;
 	font-family: 'Fugaz One', cursive;
+	color: black;
 }
 
 .socials {
 	width: 100%;
 	height: 120px;
-	margin: 10px;
+	margin: 20px;
 }
 
 .logos {
 	height: 60px;
 	width: auto;
 }
+
+ul{
+	list-style-type: none;
+}
+
+/*.project-title*/
+.grid .project-title{
+	font-size: 25px;
+	/*color: black;*/
+	text-decoration-line: none;
+	display:center;
+}
+
+
+
+
+.grid{
+	padding-top: 50px;
+	display: grid;
+	width: 90%;
+	margin: auto;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+	justify-content: center;
+	grid-template-columns: repeat(5, minmax(50px, 200px));
+	grid-template-rows: repeat (2, 290px);
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	border-radius: 3%;
+	overflow: hidden;
+}
+
+[class^="color"] {
+	flex: 1;
+}
+
+.item .color1 {
+	background-color: red;
+	color: black;
+	height: 200px;
+}
+
+.item .color1:hover{
+	background-color: black;
+	color: white;
+	
+}
+
+.project-title:hover{
+	/*color: white;*/
+	text-decoration-line: none;
+}
+
+.item .color2 {
+	background-color: pink;
+	height: 200px;
+}
+
+.item .color3 {
+	background-color: green;
+	height: 200px;
+}
+
+.item .color4 {
+	background-color: yellow;
+	height: 200px;
+}
+
+.item .color5 {
+	background-color: orange;
+	height: 200px;
+}
+
+.item .color6 {
+	background-color: brown;
+	height: 200px;
+}
+
 
 
